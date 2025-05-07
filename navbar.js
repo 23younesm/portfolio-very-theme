@@ -109,7 +109,7 @@ export class NavBar extends DDDSuper(I18NMixin(LitElement)) {
     return html`
       <div class="wrapper">
         <div class="nav-container">
-          <a href="#0">
+          <a href="#screen-0">
             <img
               src="https://brand.psu.edu/images/shared-images/psu-mark-280.png"
               alt="Penn State Logo"
@@ -117,11 +117,11 @@ export class NavBar extends DDDSuper(I18NMixin(LitElement)) {
             />
           </a>
           <div class="nav-buttons">
-            <simple-cta><a href="#1">About</a></simple-cta>
-            <simple-cta><a href="#2">Skills</a></simple-cta>
-            <simple-cta><a href="#3">Projects</a></simple-cta>
-            <simple-cta><a href="#4">Competitions</a></simple-cta>
-            <simple-cta><a href="#5">Contact</a></simple-cta>
+            <simple-cta><a href="#screen-1">About</a></simple-cta>
+            <simple-cta><a href="#screen-2">Skills</a></simple-cta>
+            <simple-cta><a href="#screen-3">Projects</a></simple-cta>
+            <simple-cta><a href="#screen-4">Competitions</a></simple-cta>
+            <simple-cta><a href="#screen-5">Contact</a></simple-cta>
           </div>
         </div>
       </div>
